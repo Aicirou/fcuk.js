@@ -1,0 +1,40 @@
+{
+  "name": "fcuk.js",
+  "version": "0.0.1",
+  "description": "Deterministic hash encoding with scattered vibes - encodes secrets into random-looking hashes with embedded tweaks",
+  "main": "src/index.js",
+  "browser": "dist/fcuk.js",
+  "files": [
+    "src/",
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "test": "node test.js",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "encoding",
+    "hashing",
+    "obfuscation",
+    "xor",
+    "deterministic",
+    "l33t",
+    "hash-generator"
+  ],
+  "author": "l33tfcuk",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aicirou/fcuk.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aicirou/fcuk.js/issues"
+  },
+  "homepage": "https://github.com/Aicirou/fcuk.js#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
